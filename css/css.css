@@ -1,0 +1,217 @@
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.mainBox {
+    position: relative;
+    margin: 0 auto;
+    max-width: 750px;
+    height: 100%;
+}
+.mainBox .previousTip{
+    position: absolute;
+    bottom: .25rem;
+    left: 50%;
+    margin-left: -.125rem;
+    width: 0.25rem;
+    height: .2rem;
+    background: url(../image/arrow.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 9999;
+    animation: tipMove .5s  infinite ;
+}
+@keyframes tipMove{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-.2rem);
+    }
+}
+
+/* 音乐按钮 */
+.mainBox .musicBox {
+    position: absolute;
+    top: .15rem;
+    right: .15rem;
+    z-index: 9999;
+    width: .3rem;
+    height: .3rem;
+    background: url('http://pkffc4n99.bkt.clouddn.com/image/music.svg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.mainBox .musicBox.move {
+    animation: musicMove 1s linear infinite both;
+}
+
+@keyframes musicMove {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.swiper-container,
+.swiper-slide {
+    height: 100%;
+    overflow: hidden;
+}
+
+.swiper-slide{
+    position: relative;
+
+}
+
+.page1 {
+    background: url(../image/beijing1.jpg) no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.backBox{
+    position: absolute;
+    top:3%;
+    left:5%;
+    width: 90%;
+    height: 94%;
+    z-index: 2;
+}
+.cloudBox{
+    position: absolute;
+    top:13%;
+    left: 12%;
+    width: .67rem;
+}
+.cloudTwoBox{
+    position: absolute;
+    top:35%;
+    right: 10%;
+    width: 0.59rem;
+}
+.Box{
+    position: absolute;
+    top:20%;
+    left: 19%;
+    width: 2.52rem;
+}
+.ziBox{
+    width: 100%;
+    transform-origin: top center;
+    animation: swing 1s 1.5s infinite;
+}
+.topBox{
+    position: absolute;
+    top:10%;
+    left: 50%;
+    margin-left: -.7rem;
+    width: 1.4rem;
+}
+.dogBox{
+    position: absolute;
+    left:50%;
+    bottom: 5%;
+}
+.page1 img:nth-of-type(4){
+    position: absolute;
+    left:50%;
+    bottom: 45%;
+    margin-left: -.6rem;
+    width: 1.17rem;
+}
+.page1 img:nth-of-type(5){
+    position: absolute;
+    left:50%;
+    bottom: 45%;
+    margin-left: -1.38rem;
+    width: 2.77rem;
+}
+.page1 img:nth-of-type(6){
+    margin-left: -1.1rem;
+    width: 2.2rem;
+}
+@keyframes swing {
+    20% {
+        transform: rotate(15deg)
+    }
+
+    40% {
+        transform: rotate(-10deg)
+    }
+
+    60% {
+        transform: rotate(5deg)
+    }
+
+    80% {
+        transform: rotate(-5deg)
+    }
+
+    to {
+        transform: rotate(0deg)
+    }
+}
+
+.page2 {
+    background: url(../image/beijing2.jpg) no-repeat;
+    background-size: cover;
+}
+.page2 img:nth-of-type(5){
+    margin-left: -1.49rem;
+    width: 2.97rem;
+    height: 3.38rem;
+}
+.page3 {
+    background:url(../image/beijing6.jpg) no-repeat;;
+    background-size:cover;
+}
+.page3 img:nth-of-type(5){
+    margin-left: -1.3rem;
+    width: 2.61rem;
+    height: 3.19rem;
+}
+.page4 {
+    background:url(../image/beijing4.jpg) no-repeat;;
+    background-size:cover;
+}
+.page4 img:nth-of-type(5){
+    margin-left: -1.49rem;
+    width: 2.97rem;
+    height: 3.38rem;
+}
+.page5 {
+    background:url(../image/beijing5.jpg) no-repeat;;
+    background-size:cover;
+}
+.page5 img:nth-of-type(5){
+    position: absolute;
+    top:20%;
+    left: 19%;
+    width: 2.52rem;
+}
+.page5 img:nth-of-type(6){
+    position: absolute;
+    top:50%;
+    left: 20%;
+    margin-top: -0.74rem;
+    width: 0.7rem;
+    height: 1.48rem;
+}
+.page5 img:nth-of-type(7){
+    left: 60%;
+    margin-left: -1.24rem;
+    width: 2.48rem;
+    height: 3.56rem;
+}
+.page6 {
+    background:url(../image/beijing2.jpg) no-repeat;;
+    background-size:cover;
+}
+.page6 img:nth-of-type(5){
+    margin-left: -1.49rem;
+    width: 2.97rem;
+    height: 3.38rem;
+}

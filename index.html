@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H5音乐相册-珠峰培训</title>
+
+    <!-- IMPORT CSS -->
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/css.css">
+
+    <!-- COMPUTED REM -->
+    <script>
+        ~ function () {
+            function computed() {
+                var HTML = document.documentElement,
+                    deviceW = HTML.clientWidth,
+                    designW = 375,
+                    maxW = 750,
+                    ratio = deviceW / designW;
+                deviceW >= maxW ? ratio = maxW / designW : null;
+                HTML.style.fontSize = ratio * 100 + 'px';
+            }
+            computed();
+            window.addEventListener('resize', computed, false);
+        }();
+    </script>
+</head>
+
+<body>
+    <!-- MAIN存放所有内容：它最大宽度750 -->
+    <main class="mainBox">
+        
+        <!-- SWIPER滑屏骨架（固定） -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- PAGE 1 -->
+                <div class="swiper-slide page1">
+                    <img src="image/beijing.jpg" alt="" class="ani backBox" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0s">
+                    <img src="image/yuncai.jpg" alt="" class="cloudBox ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <img src="image/yuncai2.jpg" alt="" class="cloudTwoBox ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <img src="image/top1.jpg" alt="" class="ani topBox" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <div class="ani Box" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                        <img src="image/zi1.jpg" alt="" class="ziBox">
+                    </div>
+                    <img src="image/2018.png" alt="" class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <img src="image/dog1.jpg" alt="" class="ani dogBox" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                </div>
+
+                <!-- PAGE 2 -->
+                <div class="swiper-slide page2">
+                    <img src="image/beijing.jpg" alt="" class="ani backBox" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0s">
+                    <img src="image/yuncai.jpg" alt="" class="cloudBox ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <img src="image/yuncai2.jpg" alt="" class="cloudTwoBox ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <img src="image/top2.jpg" alt="" class="ani topBox" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <div class="ani Box" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                        <img src="image/zi2.jpg" alt="" class="ziBox">
+                    </div>
+                    <img src="image/dog2.jpg" alt="" class="ani dogBox" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay=".5s">  
+                </div>
+
+                <!-- PAGE 3 -->
+                <div class="swiper-slide page3">
+                    <img src="image/beijing.jpg" alt="" class="ani backBox" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0s">        
+                    <img src="image/yuncai.jpg" alt="" class="cloudBox ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <img src="image/yuncai2.jpg" alt="" class="cloudTwoBox ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <img src="image/top3.jpg" alt="" class="ani topBox" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <div class="ani Box" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                        <img src="image/zi3.jpg" alt="" class="ziBox">
+                    </div>
+                    <img src="image/dog3.jpg" alt="" class="ani dogBox" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay=".5s">  
+                </div>
+                <!-- PAGE 4 -->
+                <div class="swiper-slide page4">
+                    <img src="image/beijing.jpg" alt="" class="ani backBox" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0s"> 
+                    <img src="image/yuncai.jpg" alt="" class="cloudBox ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <img src="image/yuncai2.jpg" alt="" class="cloudTwoBox ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <img src="image/top4.jpg" alt="" class="ani topBox" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <div class="ani Box" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                        <img src="image/zi4.jpg" alt="" class="ziBox">
+                    </div>
+                    <img src="image/dog4.jpg" alt="" class="ani dogBox" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay=".5s">  
+                </div>
+                <!-- PAGE 5 -->
+                <div class="swiper-slide page5">   
+                    <img src="image/beijing.jpg" alt="" class="ani backBox" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0s"> 
+                    <img src="image/yuncai.jpg" alt="" class="cloudBox ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <img src="image/yuncai2.jpg" alt="" class="cloudTwoBox ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <img src="image/top5.jpg" alt="" class="ani topBox" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <img src="image/2018.png" alt=""  class="ani " swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <img src="image/zi5.jpg" alt=""  class="ani " swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <img src="image/dog5.jpg" alt="" class="ani dogBox" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay=".5s">  
+                </div>
+                <!-- PAGE 6 -->
+                <div class="swiper-slide page6">
+                    <img src="image/beijing.jpg" alt="" class="ani backBox" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0s">
+                    <img src="image/yuncai.jpg" alt="" class="cloudBox ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <img src="image/yuncai2.jpg" alt="" class="cloudTwoBox ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <img src="image/top6.jpg" alt="" class="ani topBox" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                    <div class="ani Box" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay=".5s">
+                        <img src="image/zi6.jpg" alt="" class="ziBox">
+                    </div>
+                    <img src="image/dog6.jpg" alt="" class="ani dogBox" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay=".5s">  
+                </div>
+            </div>
+        </div>
+
+        <!-- 滑动提示按钮 -->
+        <a href="javascript:;" class="previousTip" ></a>
+
+         <!-- 音乐 -->
+         <a href="javascript:;" class="musicBox"></a>
+         <audio src="audio/yinyue.mp4" autoplay loop preload="none" id="musicAdudio"></audio>
+    </main>
+
+    <!-- IMPORT JS -->
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate1.0.3.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
